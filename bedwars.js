@@ -1,3 +1,24 @@
+enum Team {
+
+  RED, GREEN, YELLOW, BLUE
+
+}
+
+class User {
+
+  name: string
+  isInGame: boolean
+  team: Team
+  isAlive: boolean
+
+  constructor(name:string) {
+      this.name = name;
+  }
+
+
+}
+
+
 let arena = {
 
     name: "Arena",
